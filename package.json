@@ -1,0 +1,29 @@
+{
+  "name": "com.gameframex.unity.sentry",
+  "displayName": "Game Frame X Sentry",
+  "version": "1.0.0",
+  "unity": "2017.1",
+  "description": "Sentry 日志上报",
+  "author": {
+    "name": "Blank",
+    "email": "alianblank@outlook.com",
+    "url": "https://gameframex.doc.alianblank.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gameframex/com.gameframex.unity.sentry.git",
+    "name": "com.gameframex.unity.sentry"
+  },
+  "dependencies": {
+    "com.gameframex.unity": "1.1.1"
+  },
+  "devDependencies": {
+    "semantic-release": "^24.2.0",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.cnb.cool/GameFrameX/npm/-/packages/"
+  }
+}
