@@ -1,7 +1,7 @@
 {
   "name": "com.gameframex.unity.sentry",
   "displayName": "Game Frame X Sentry",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "unity": "2017.1",
   "description": "Sentry 日志上报",
   "author": {

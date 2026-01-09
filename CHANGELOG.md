@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/gameframex/com.gameframex.unity.sentry/compare/1.0.0...1.1.0) (2026-01-09)
+
+
+### Bug Fixes
+
+* **SentryLogHelper:** 为Debug和Info级别日志添加SentryLevel参数 ([177b868](https://github.com/gameframex/com.gameframex.unity.sentry/commit/177b86841e249f519465fb424d0ea428589fe16a))
+
+
+### Features
+
+* **SentryLog:** 添加GameFrameXSentryLogCroppingHelper类用于日志裁剪 ([beb757f](https://github.com/gameframex/com.gameframex.unity.sentry/commit/beb757f9da39ee562ce6f4d4d8254d2df22a51e9))
+
 # 1.0.0 (2026-01-09)
 
 
