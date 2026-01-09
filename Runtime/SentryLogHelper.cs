@@ -54,11 +54,11 @@ namespace GameFrameX.SentryLog.Runtime
             switch (level)
             {
                 case GameFrameworkLogLevel.Debug:
-                    SentrySdk.CaptureMessage($"{time}{message}");
+                    SentrySdk.CaptureMessage($"{time}{message}", SentryLevel.Debug);
                     break;
 
                 case GameFrameworkLogLevel.Info:
-                    SentrySdk.CaptureMessage($"{time}{message}");
+                    SentrySdk.CaptureMessage($"{time}{message}", SentryLevel.Info);
                     break;
 
                 case GameFrameworkLogLevel.Warning:
