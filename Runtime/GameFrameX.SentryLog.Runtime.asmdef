@@ -1,0 +1,17 @@
+{
+  "name": "GameFrameX.SentryLog.Runtime",
+  "rootNamespace": "GameFrameX.SentryLog.Runtime",
+  "references": [
+    "GameFrameX.Runtime",
+    "io.sentry.unity.runtime"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}
