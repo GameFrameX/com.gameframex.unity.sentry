@@ -15,6 +15,7 @@
     "name": "com.gameframex.unity.sentry"
   },
   "dependencies": {
+    "io.sentry.unity": "4.0.0",
     "com.gameframex.unity": "1.1.1"
   },
   "devDependencies": {
