@@ -138,7 +138,7 @@ public class GameManager : MonoBehaviour
 ## 依赖说明
 
 - **com.gameframex.unity**: 1.1.1 或更高版本 - GameFramework 核心框架
-- **Sentry Unity SDK**: 需要单独安装，用于实际的日志上报功能
+- **io.sentry.unity**: 4.0.0 或更高版本 - Sentry Unity SDK
 
 ## 兼容性
 
