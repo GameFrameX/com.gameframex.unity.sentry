@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/gameframex/com.gameframex.unity.sentry/compare/1.1.0...1.1.1) (2026-01-12)
+
+
+### Bug Fixes
+
+* 更新README中Sentry依赖的包名和版本号 ([ffd10fd](https://github.com/gameframex/com.gameframex.unity.sentry/commit/ffd10fd5979d307dca97d44a135789c020602ec9))
+
 # [1.1.0](https://github.com/gameframex/com.gameframex.unity.sentry/compare/1.0.0...1.1.0) (2026-01-09)
 
 
