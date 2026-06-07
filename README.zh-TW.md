@@ -41,23 +41,36 @@
 
 ## 快速開始
 
-### 安裝方式（任選其一）
+### 安裝
 
-1. **Package Manager（推薦）**：開啟 Unity 的 Package Manager（Window -> Package Manager），點選 `+`，選擇 "Add package from git URL..."，輸入：
-   ```
-   https://github.com/gameframex/com.gameframex.unity.sentry.git
-   ```
+編輯 Unity 專案的 `Packages/manifest.json`，添加 `scopedRegistries` 部分：
 
-2. **manifest.json**：在專案的 `Packages/manifest.json` 檔案中新增依賴：
-   ```json
-   {
-     "dependencies": {
-       "com.gameframex.unity.sentry": "https://github.com/gameframex/com.gameframex.unity.sentry.git"
-     }
-   }
-   ```
+```json
+{
+  "scopedRegistries": [
+    {
+      "name": "GameFrameX",
+      "url": "https://gameframex.upm.alianblank.uk",
+      "scopes": [
+        "com.gameframex"
+      ]
+    }
+  ]
+}
+```
 
-3. **本機安裝**：將本倉庫複製或下載到本機，將整個 `com.gameframex.unity.sentry` 資料夾複製到專案的 `Packages` 目錄下。
+`scopes` 控制哪些套件透過此註冊表解析。只有以 `com.gameframex` 開頭的套件才會從這個註冊表取得。
+
+Then add the package to `dependencies`:
+
+```json
+{
+  "dependencies": {
+    "com.gameframex.unity.sentry": "1.1.1"
+  }
+}
+```
+
 
 ## 使用範例
 

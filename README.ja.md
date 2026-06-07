@@ -41,23 +41,36 @@
 
 ## クイックスタート
 
-### インストール（いずれかを選択）
+### インストール
 
-1. **Package Manager（推奨）**：Unity の Package Manager（Window -> Package Manager）を開き、`+` をクリックし、「Add package from git URL...」を選択して以下を入力：
-   ```
-   https://github.com/gameframex/com.gameframex.unity.sentry.git
-   ```
+Unity プロジェクトの `Packages/manifest.json` を編集し、`scopedRegistries` セクションを追加してください：
 
-2. **manifest.json**：`Packages/manifest.json` に追加：
-   ```json
-   {
-     "dependencies": {
-       "com.gameframex.unity.sentry": "https://github.com/gameframex/com.gameframex.unity.sentry.git"
-     }
-   }
-   ```
+```json
+{
+  "scopedRegistries": [
+    {
+      "name": "GameFrameX",
+      "url": "https://gameframex.upm.alianblank.uk",
+      "scopes": [
+        "com.gameframex"
+      ]
+    }
+  ]
+}
+```
 
-3. **ローカル**：リポジトリをクローンし、`com.gameframex.unity.sentry` フォルダをプロジェクトの `Packages` ディレクトリに配置します。
+`scopes` は、どのパッケージをこのレジストリから解決するかを制御します。`com.gameframex` で始まるパッケージのみがこのレジストリから取得されます。
+
+Then add the package to `dependencies`:
+
+```json
+{
+  "dependencies": {
+    "com.gameframex.unity.sentry": "1.1.1"
+  }
+}
+```
+
 
 ## 使用例
 

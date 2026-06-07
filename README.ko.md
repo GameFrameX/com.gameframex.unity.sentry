@@ -41,23 +41,36 @@
 
 ## 빠른 시작
 
-### 설치 (선택)
+### 설치
 
-1. **Package Manager (권장)**：Unity의 Package Manager (Window -> Package Manager)를 열고, `+`를 클릭한 후 "Add package from git URL..."을 선택하고 다음을 입력:
-   ```
-   https://github.com/gameframex/com.gameframex.unity.sentry.git
-   ```
+Unity 프로젝트의 `Packages/manifest.json`을 편집하여 `scopedRegistries` 섹션을 추가하세요:
 
-2. **manifest.json**：`Packages/manifest.json`에 추가:
-   ```json
-   {
-     "dependencies": {
-       "com.gameframex.unity.sentry": "https://github.com/gameframex/com.gameframex.unity.sentry.git"
-     }
-   }
-   ```
+```json
+{
+  "scopedRegistries": [
+    {
+      "name": "GameFrameX",
+      "url": "https://gameframex.upm.alianblank.uk",
+      "scopes": [
+        "com.gameframex"
+      ]
+    }
+  ]
+}
+```
 
-3. **로컬**：저장소를 클론하여 `com.gameframex.unity.sentry` 폴더를 프로젝트의 `Packages` 디렉토리에 배치합니다.
+`scopes`는 이 레지스트리를 통해 어떤 패키지를 해석할지 제어합니다. `com.gameframex`로 시작하는 패키지만 이 레지스트리에서 가져옵니다.
+
+Then add the package to `dependencies`:
+
+```json
+{
+  "dependencies": {
+    "com.gameframex.unity.sentry": "1.1.1"
+  }
+}
+```
+
 
 ## 사용 예시
 

@@ -41,23 +41,36 @@ This plugin is the Sentry log reporting module for the [GameFrameX](https://gith
 
 ## Quick Start
 
-### Installation (choose one)
+### Installation
 
-1. **Package Manager (Recommended)**: Open Unity's Package Manager (Window -> Package Manager), click `+`, select "Add package from git URL...", and enter:
-   ```
-   https://github.com/gameframex/com.gameframex.unity.sentry.git
-   ```
+Edit your Unity project's `Packages/manifest.json` and add the `scopedRegistries` section:
 
-2. **manifest.json**: Add to `Packages/manifest.json`:
-   ```json
-   {
-     "dependencies": {
-       "com.gameframex.unity.sentry": "https://github.com/gameframex/com.gameframex.unity.sentry.git"
-     }
-   }
-   ```
+```json
+{
+  "scopedRegistries": [
+    {
+      "name": "GameFrameX",
+      "url": "https://gameframex.upm.alianblank.uk",
+      "scopes": [
+        "com.gameframex"
+      ]
+    }
+  ]
+}
+```
 
-3. **Local**: Clone the repository and place the `com.gameframex.unity.sentry` folder in the project's `Packages` directory.
+`scopes` controls which packages are resolved through this registry. Only packages whose names start with `com.gameframex` will be fetched from it.
+
+Then add the package to `dependencies`:
+
+```json
+{
+  "dependencies": {
+    "com.gameframex.unity.sentry": "1.1.1"
+  }
+}
+```
+
 
 ## Usage Examples
 
