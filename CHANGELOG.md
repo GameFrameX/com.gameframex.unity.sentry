@@ -1,3 +1,11 @@
+## [1.1.2](https://github.com/gameframex/com.gameframex.unity.sentry/compare/1.1.1...1.1.2) (2026-06-07)
+
+
+### Bug Fixes
+
+* 统一 LICENSE.md 为 Apache 2.0 (自有仓库) ([ed0ec94](https://github.com/gameframex/com.gameframex.unity.sentry/commit/ed0ec949f634fd70ffdad5d57cb759a07e9b3be8))
+* 补全包规范文件（LICENSE/CHANGELOG/URL 字段/unity 字段） ([aba24ec](https://github.com/gameframex/com.gameframex.unity.sentry/commit/aba24ec655ab87fe391b650c0c051a3f1084a3b3))
+
 ## [1.1.1](https://github.com/gameframex/com.gameframex.unity.sentry/compare/1.1.0...1.1.1) (2026-01-12)
 
 
