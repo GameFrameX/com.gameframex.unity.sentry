@@ -71,7 +71,6 @@ Then add the package to `dependencies`:
 }
 ```
 
-
 ## 使用示例
 
 ### 初始化 SentryLogHelper
@@ -128,4 +127,4 @@ public class GameEntry : MonoBehaviour
 
 ## 开源协议
 
-本项目采用 MIT 协议开源，详见 [LICENSE.md](LICENSE.md) 文件。
+详见 [LICENSE.md](LICENSE.md) 文件。
