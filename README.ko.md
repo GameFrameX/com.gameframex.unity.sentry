@@ -36,7 +36,7 @@
 - **다중 레벨 로그 보고** - Debug, Info, Warning, Error, Fatal 5개 로그 레벨 지원
 - **타임스탬프 마킹** - 각 로그 항목에 Unity 타임스탬프를 자동 추가하여 문제 추적 용이
 - **GameFramework 통합** - GameFramework 로그 시스템과 원활하게 통합
-- **코드 스트리핑 방지** - `[Preserve]` 속성을 사용하여 Unity 코드 스트리핑 문제 방지
+- **코드 스트리핑 방지** - `[UnityEngine.Scripting.Preserve]` 속성을 사용하여 Unity 코드 스트리핑 문제 방지
 - **경량 구현** - 성능에 영향을 주지 않는 효율적인 로그 헬퍼 구현
 
 ## 빠른 시작

@@ -36,7 +36,7 @@
 - **多级别日志上报** - 支持 Debug、Info、Warning、Error、Fatal 五个日志级别的上报
 - **时间戳标记** - 自动为每条日志添加 Unity 时间戳，便于问题追踪
 - **GameFramework 集成** - 完美集成 GameFramework 日志系统，实现无缝日志上报
-- **代码防裁剪** - 使用 `[Preserve]` 特性防止 Unity 代码裁剪导致的异常
+- **代码防裁剪** - 使用 `[UnityEngine.Scripting.Preserve]` 特性防止 Unity 代码裁剪导致的异常
 - **轻量级实现** - 简洁高效的日志辅助器实现，不影响游戏性能
 
 ## 快速开始

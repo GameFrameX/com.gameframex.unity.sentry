@@ -36,7 +36,7 @@ This plugin is the Sentry log reporting module for the [GameFrameX](https://gith
 - **Multi-level Log Reporting** - Supports Debug, Info, Warning, Error, and Fatal log levels
 - **Timestamp Marking** - Automatically adds Unity timestamps to each log entry for issue tracking
 - **GameFramework Integration** - Seamlessly integrates with the GameFramework logging system
-- **Code Stripping Prevention** - Uses `[Preserve]` attribute to prevent Unity code stripping issues
+- **Code Stripping Prevention** - Uses `[UnityEngine.Scripting.Preserve]` attribute to prevent Unity code stripping issues
 - **Lightweight Implementation** - Efficient log helper implementation with minimal performance impact
 
 ## Quick Start

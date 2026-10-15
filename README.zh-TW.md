@@ -36,7 +36,7 @@
 - **多級別日誌上報** - 支援 Debug、Info、Warning、Error、Fatal 五個日誌級別的上報
 - **時間戳標記** - 自動為每條日誌新增 Unity 時間戳，便於問題追蹤
 - **GameFramework 整合** - 完美整合 GameFramework 日誌系統，實現無縫日誌上報
-- **程式碼防裁剪** - 使用 `[Preserve]` 特性防止 Unity 程式碼裁剪導致的異常
+- **程式碼防裁剪** - 使用 `[UnityEngine.Scripting.Preserve]` 特性防止 Unity 程式碼裁剪導致的異常
 - **輕量級實作** - 簡潔高效的日誌輔助器實作，不影響遊戲效能
 
 ## 快速開始
