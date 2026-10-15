@@ -3,7 +3,7 @@
   "displayName": "Game Frame X Sentry",
   "version": "1.1.2",
   "unity": "2019.4",
-  "description": "Sentry 日志上报",
+  "description": "GameFrameX Sentry — log reporting module that sends Unity project logs to the Sentry platform in real time. Supports five log levels (Debug, Info, Warning, Error, Fatal), automatically stamps each entry with a Unity timestamp for issue tracking, and integrates with the GameFramework logging system. Uses Preserve attributes to survive Unity code stripping and keeps a lightweight helper implementation with minimal performance impact. Docs: https://gameframex.doc.alianblank.com\n\nGameFrameX Sentry — 将 Unity 项目日志实时上报到 Sentry 平台的日志上报功能包。支持 Debug、Info、Warning、Error、Fatal 五个日志级别，自动为每条日志附加 Unity 时间戳以便问题追踪，并与 GameFramework 日志系统无缝集成。使用 Preserve 属性防止 Unity 代码裁剪，日志助手实现轻量、性能影响极小。文档：https://gameframex.doc.alianblank.com",
   "author": {
     "name": "Blank",
     "email": "alianblank@outlook.com",
@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "io.sentry.unity": "4.0.0",
-    "com.gameframex.unity": "2.5.1"
+    "com.gameframex.unity": "3.0.0"
   },
   "devDependencies": {
     "semantic-release": "^24.2.0",
