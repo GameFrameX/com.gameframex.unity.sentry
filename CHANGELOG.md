@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/gameframex/com.gameframex.unity.sentry/compare/1.1.2...1.1.3) (2026-10-15)
+
+
+### Bug Fixes
+
+* **runtime:** Preserve 特性改用全限定名防裁剪 ([e99ce52](https://github.com/gameframex/com.gameframex.unity.sentry/commit/e99ce5255f9336f12d5f3d840b9ba89971e73c31))
+
 ## [1.1.2](https://github.com/gameframex/com.gameframex.unity.sentry/compare/1.1.1...1.1.2) (2026-06-07)
 
 
