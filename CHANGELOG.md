@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/gameframex/com.gameframex.unity.sentry/compare/1.1.3...1.1.4) (2026-11-10)
+
+
+### Bug Fixes
+
+* **sentry:** 添加完整 link.xml 防代码裁剪保护 ([ab9a716](https://github.com/gameframex/com.gameframex.unity.sentry/commit/ab9a716491bf446b6022addc3527a228f20159df))
+
 ## [1.1.3](https://github.com/gameframex/com.gameframex.unity.sentry/compare/1.1.2...1.1.3) (2026-10-15)
 
 
